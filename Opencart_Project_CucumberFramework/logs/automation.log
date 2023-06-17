@@ -1,0 +1,133 @@
+12:45:05.228 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+12:45:05.245 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+12:45:05.245 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+12:45:06.149 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12604 (auto-detected)
+12:45:06.151 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+12:45:06.151 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+12:45:06.329 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+12:45:06.329 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+12:45:06.340 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 70:1c:e7:ff:fe:77:a0:f6 (auto-detected)
+12:45:06.391 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+12:45:06.391 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+12:45:06.391 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@21a9d72c
+12:45:06.471 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+12:45:06.471 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+12:45:06.471 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+12:45:06.471 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+12:45:07.351 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+12:45:07.620 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd6e0d40b0aded2ff
+12:45:09.494 [main] INFO  stepDefination.Steps - click on my account
+12:45:10.030 [main] INFO  stepDefination.Steps - click on login button from dropdown
+12:45:10.218 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:45:10.221 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:45:10.223 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:45:10.473 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+12:45:10.477 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:45:10.478 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:45:10.478 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:45:10.479 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:45:10.481 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:45:10.500 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+12:45:10.502 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:45:10.509 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+12:45:10.510 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:45:10.511 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+12:45:10.513 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:45:10.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+12:45:10.516 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+12:45:10.611 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+12:45:10.612 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+12:45:10.689 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+12:45:10.696 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+12:45:10.702 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+12:45:10.706 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+12:45:10.712 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+12:45:10.715 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+12:45:10.717 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+12:45:10.719 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+12:45:10.722 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+12:45:10.724 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+12:45:10.727 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+12:45:10.728 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+12:45:10.730 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+12:45:10.735 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+12:45:10.741 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+12:45:10.766 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+12:45:10.796 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+12:45:10.805 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+12:45:10.811 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+12:45:10.813 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+12:45:10.818 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+12:45:10.821 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+12:45:10.828 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+12:45:10.840 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+12:45:10.843 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+12:45:10.849 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+12:45:10.858 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+12:45:10.868 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+12:45:10.873 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+12:45:10.894 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+12:45:10.897 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+12:45:10.914 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+12:45:10.920 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+12:45:22.485 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+12:45:26.088 [main] INFO  stepDefination.Steps - click on my account
+12:45:26.457 [main] INFO  stepDefination.Steps - click on login button from dropdown
+12:45:26.469 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:45:26.471 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:45:26.474 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:45:37.608 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+12:45:40.695 [main] INFO  stepDefination.Steps - click on my account
+12:45:41.033 [main] INFO  stepDefination.Steps - click on login button from dropdown
+12:45:41.063 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:45:41.064 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:45:41.065 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:45:52.239 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+12:45:55.399 [main] INFO  stepDefination.Steps - click on my account
+12:45:55.888 [main] INFO  stepDefination.Steps - click on login button from dropdown
+12:45:55.909 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:45:55.911 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:45:55.912 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:46:07.179 [AsyncHttpClient-1-5] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+12:02:24.830 [main] INFO  stepDefination.Steps - click on my account
+12:02:25.719 [main] INFO  stepDefination.Steps - click on registerLink
+12:02:26.855 [main] INFO  stepDefination.Steps - click on newsletters Yes
+12:02:26.917 [main] INFO  stepDefination.Steps - click on agree
+12:02:27.273 [main] INFO  stepDefination.Steps - click on continue
+12:05:42.404 [main] INFO  stepDefination.Steps - click on my account
+12:05:42.821 [main] INFO  stepDefination.Steps - click on registerLink
+12:05:43.942 [main] INFO  stepDefination.Steps - click on newsletters Yes
+12:05:44.012 [main] INFO  stepDefination.Steps - click on agree
+12:05:44.348 [main] INFO  stepDefination.Steps - click on continue
+12:06:31.806 [main] INFO  stepDefination.Steps - click on my account
+12:06:32.230 [main] INFO  stepDefination.Steps - click on registerLink
+12:06:33.389 [main] INFO  stepDefination.Steps - click on newsletters Yes
+12:06:33.458 [main] INFO  stepDefination.Steps - click on agree
+12:06:36.138 [main] INFO  stepDefination.Steps - click on continue
+12:06:37.196 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+12:06:37.542 [main] INFO  stepDefination.Steps - click on continue
+12:06:38.572 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+20:41:09.390 [main] INFO  stepDefination.Steps - click on my account
+20:41:10.087 [main] INFO  stepDefination.Steps - click on login button from dropdown
+20:41:10.721 [main] INFO  stepDefination.Steps - Enter email id
+20:41:10.821 [main] INFO  stepDefination.Steps - Enter password
+20:41:11.163 [main] INFO  stepDefination.Steps - click on login button
+20:41:12.211 [main] INFO  stepDefination.Steps - Expected message is not equal to actual message
+20:41:15.724 [main] INFO  stepDefination.Steps - click on my account
+20:41:16.079 [main] INFO  stepDefination.Steps - click on login button from dropdown
+20:41:16.784 [main] INFO  stepDefination.Steps - Enter email id
+20:41:16.883 [main] INFO  stepDefination.Steps - Enter password
+20:41:17.472 [main] INFO  stepDefination.Steps - click on login button
+20:41:18.499 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+20:50:26.042 [main] INFO  stepDefination.Steps - click on my account
+20:50:26.655 [main] INFO  stepDefination.Steps - click on login button from dropdown
+20:50:27.320 [main] INFO  stepDefination.Steps - Enter email id
+20:50:27.442 [main] INFO  stepDefination.Steps - Enter password
+20:50:27.819 [main] INFO  stepDefination.Steps - click on login button
+20:50:28.832 [main] INFO  stepDefination.Steps - Expected message is not equal to actual message
+20:50:33.571 [main] INFO  stepDefination.Steps - click on my account
+20:50:33.889 [main] INFO  stepDefination.Steps - click on login button from dropdown
+20:50:34.534 [main] INFO  stepDefination.Steps - Enter email id
+20:50:34.663 [main] INFO  stepDefination.Steps - Enter password
+20:50:35.086 [main] INFO  stepDefination.Steps - click on login button
+20:50:36.107 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
