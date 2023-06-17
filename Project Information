@@ -1,0 +1,13 @@
+Project Name: ONLINE SHOPPING WEBSITE MANAGEMENT SYSTEM PROJECT
+Domain: eCommerce
+Description: Opencart Store is an ecommerce software Online Shopping Application, It organizes Online Shopping business
+operations like product promotions, selling products, and shipping goods etc. It has two interfaces, One is Admin interface, provides
+features like Adding / Editing / Deleting Customers, Vendors, Products, User management and generating Reports. Another interface
+is User Interface, provides features like User registration, Search products, Products Display, add to shopping cart, payments for
+Products and Buying products etc.
+
+Roles & Responsibilities:
+• Writing Test cases and Test Scenario.
+• Testing Approach: Manual and Automated.
+• Executing Tests and analyzing results.
+• Perform automation Testing (Functional)using Selenium WebDriver & Hybrid Framework.

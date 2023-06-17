@@ -1,0 +1,92 @@
+import java.io.IOException;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import Utilities.WriteExcel;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class TenderPageScroolToButtom {
+
+public static void main(String[] args) throws InterruptedException, IOException
+	
+	{
+		
+	   WebDriverManager.chromedriver().setup();
+	   ChromeOptions options = new ChromeOptions();
+	   options.addArguments("--remote-allow-origins=*");
+	   WebDriver driver = new ChromeDriver(options);
+	   //driver.manage().window().maximize();
+	   driver.get("https://www.tenderdetail.com/");
+	   driver.findElement(By.xpath("//input[@id='txtKeyword']")).sendKeys("rtdas");
+	   driver.findElement(By.xpath("//button[@type='submit']")).click();	
+	   Thread.sleep(500);
+	   JavascriptExecutor js = ( JavascriptExecutor) driver;
+	   js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+	   Thread.sleep(30000);
+	   ArrayList <WebElement> td = new ArrayList <WebElement>(driver.findElements(By.xpath("//a[@class='m-brief']")));
+	   System.out.println(td.size());
+	   String path = "H:\\Testing\\TenderAutomation.xlsx";
+	   
+	  for(int i=151; i<=259;i++)
+	              {
+		            WebElement el=td.get(i);
+		            js.executeScript("arguments[0].click();", el);
+		            Thread.sleep(1000);
+		            String tdate;
+		            String tvalue;
+		            String thead=driver.findElement(By.cssSelector(".Tender-title1")).getText();
+		            Thread.sleep(500);
+	           try {
+                    WebElement city= driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div[2]/div[7]/label"));
+                    tdate = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div[2]/div[8]/div")).getText();		    
+	               }
+              catch (Exception e)
+	               {
+		              Thread.sleep(500);
+    	             tdate=driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[1]/div[2]/div[7]/div")).getText();
+	               }
+	
+	
+	try {
+            Thread.sleep(500);
+		    WebElement cd = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[3]/div[2]"));
+		    tvalue= driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[4]/div[2]/div[3]/div[2]")).getText();
+	    }
+	catch (Exception e)
+	       {
+		     try {
+		            Thread.sleep(500);
+		    	   WebElement tnd = driver.findElement(By.xpath("//*[@id=\"DivOtherInformation\"]/div[1]/h3"));
+		    	   tvalue = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[6]/div[2]/div[3]/div[2]")).getText();
+		         }
+		     catch (Exception e1)
+		     {   
+		    	 try {
+			         Thread.sleep(500);
+		    		 WebElement tnd=driver.findElement(By.xpath("//*[@id=\"DivOtherInformation\"]/div[1]/h3"));
+		    		 tvalue = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[5]/div[2]/div[3]/div[2]")).getText();
+		    	     }
+		    	 catch(Exception e2)
+		    	 {
+			         Thread.sleep(500);
+		    		 tvalue = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[1]/div[3]/div[2]/div[3]/div[2]")).getText();
+		    	 }
+		     }
+	       }
+	   
+	     WriteExcel.setCell1(path, "Sheet1", 0, i+1, 0, 2, 3, 4, thead, tdate, tvalue);
+	     driver.navigate().back();
+		 
+		 }
+	  driver.close();
+	  }
+}

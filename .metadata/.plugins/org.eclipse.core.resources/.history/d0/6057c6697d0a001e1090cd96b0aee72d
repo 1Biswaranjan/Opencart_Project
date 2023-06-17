@@ -1,0 +1,19 @@
+Feature: Registration
+
+Scenario: Successful Registration With Valid Details
+   Given user open the browser
+   And open the url "http://localhost:8081/opencart/upload/"
+   When user navigate to Homepage
+   And click on register
+   And user enter firstname as "xyzew"
+   And user enter lastname as "qwert"
+   And user enter email as "1biswaranjan@gmail.com"
+   And user enter telephone as "1234567897"
+   And user enter password as "abc@123"
+   And user enter confirm password as ""
+   And user click the subscribe buttn yes 
+   And user click the privacy policy
+   And user click the continue button
+   Then validate the success message
+   And click on continue
+   And validate the My Account page

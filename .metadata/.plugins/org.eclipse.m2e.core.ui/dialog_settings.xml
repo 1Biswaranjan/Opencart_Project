@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\lenovo\eclipse-workspace\MavenId"/>
+			<item value="C:\Users\lenovo\Downloads\Compressed\opencart_cucumber_framework"/>
+			<item value="H:\Testing\Hybrid Framework\opencart_aug10"/>
+			<item value="C:\Users\lenovo\Downloads\Video\Eclipse 2020-06\Opencart_Project_HybridFramework"/>
+			<item value="H:\Testing\Eclipse 2020-06\test"/>
+			<item value="H:\Testing\Eclipse 2020-06\SdetExercise"/>
+			<item value="H:\Testing\Eclipse 2020-06\Scrap"/>
+			<item value="H:\Testing\Eclipse 2020-06\Operator"/>
+			<item value="H:\Testing\Eclipse 2020-06\JavaExercise"/>
+			<item value="H:\Testing\Eclipse 2020-06\facegenieAutomation"/>
+			<item value="H:\Testing\Eclipse 2020-06\Exercise"/>
+			<item value="H:\Testing\Eclipse 2020-06\ConnectedStations"/>
+			<item value="H:\Testing\New Eclipse Workspace\Opencart_Project_CucumberFramework"/>
+			<item value="H:\Testing\New Eclipse Workspace\TenderData"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

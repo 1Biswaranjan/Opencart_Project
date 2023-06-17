@@ -1,0 +1,15 @@
+Feature: Login
+
+  Scenario Outline: Login With Data Driven
+    Given User Launch browser
+    And opens URL "http://localhost/opencart/upload/"
+    When User navigate to Homepage
+    And click on Login
+    And User enters Email as "<email>" and Password as "<password>"
+    And Click on Login button
+    Then User navigates to MyAccount Page
+
+    Examples: 
+      | email                     | password |
+      | abc@gmail.com             | abc@123  |
+      | test1_user@gmail.com      | Test@123 |
