@@ -194,3 +194,89 @@
 22:07:56.500 [main] INFO  testCases.TC_008_EndToEndTest - actual confirm message is compare to expected confirm message
 22:07:59.866 [main] INFO  testCases.TC_008_EndToEndTest - clik on Continue button for home page
 22:07:59.866 [main] INFO  testCases.TC_008_EndToEndTest - *** End To End Test Case finished ***
+23:39:43.647 [main] INFO  testCases.TC_001_AccountRegistrationTest - Test Case Started
+23:39:43.789 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on my account
+23:39:44.389 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on registerLink
+23:39:44.390 [main] INFO  testCases.TC_001_AccountRegistrationTest - provide customer data
+23:39:45.373 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on newsletters Yes
+23:39:45.450 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on agree
+23:39:47.920 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on continue
+23:39:47.973 [main] INFO  testCases.TC_001_AccountRegistrationTest - test_Account_Registration is completed
+23:39:51.694 [main] INFO  testCases.TC_002_LoginTest - **** login test start***
+23:39:51.882 [main] INFO  testCases.TC_002_LoginTest - click on my account link
+23:39:52.397 [main] INFO  testCases.TC_002_LoginTest - click on login link
+23:39:52.583 [main] INFO  testCases.TC_002_LoginTest - enter email id
+23:39:52.810 [main] INFO  testCases.TC_002_LoginTest - enter password
+23:39:53.384 [main] INFO  testCases.TC_002_LoginTest - click on login button
+23:39:53.434 [main] INFO  testCases.TC_002_LoginTest - got the actual msg
+23:39:53.434 [main] INFO  testCases.TC_002_LoginTest - comparision
+23:39:53.435 [main] INFO  testCases.TC_002_LoginTest - **** login test finished***
+23:39:57.196 [main] INFO  testCases.TC_004_SearchProductTest - *** Search Product test case is start ***
+23:39:57.348 [main] INFO  testCases.TC_004_SearchProductTest - Product is type in the search box
+23:39:58.269 [main] INFO  testCases.TC_004_SearchProductTest - click on search button
+23:40:01.460 [main] INFO  testCases.TC_004_SearchProductTest - Verify the search product in result section 
+23:40:01.460 [main] INFO  testCases.TC_004_SearchProductTest - *** Search Product test case is finished ***
+23:40:05.149 [main] INFO  testCases.TC_005_AddToCartPageTest - *** Add To Cart Test Case Start ***
+23:40:05.267 [main] INFO  testCases.TC_005_AddToCartPageTest - Search the product
+23:40:06.133 [main] INFO  testCases.TC_005_AddToCartPageTest - clik on search button
+23:40:07.185 [main] INFO  testCases.TC_005_AddToCartPageTest - clik on searched product
+23:40:09.353 [main] INFO  testCases.TC_005_AddToCartPageTest - Update the cart value
+23:40:09.470 [main] INFO  testCases.TC_005_AddToCartPageTest - clik on Add to cart button
+23:40:11.517 [main] INFO  testCases.TC_005_AddToCartPageTest - Confirmation message is compare to expected message
+23:40:11.517 [main] INFO  testCases.TC_005_AddToCartPageTest - *** Add To Cart Test Case finish ***
+23:40:16.073 [main] INFO  testCases.TC_006_ShoppingCartTest - *** verifyCheckoutPage Test Case Start ***
+23:40:16.872 [main] INFO  testCases.TC_006_ShoppingCartTest - enter email id
+23:40:17.008 [main] INFO  testCases.TC_006_ShoppingCartTest - enter password
+23:40:17.609 [main] INFO  testCases.TC_006_ShoppingCartTest - click on login button
+23:40:18.079 [main] INFO  testCases.TC_006_ShoppingCartTest - Search the product
+23:40:18.624 [main] INFO  testCases.TC_006_ShoppingCartTest - clik on search button
+23:40:19.911 [main] INFO  testCases.TC_006_ShoppingCartTest - clik on searched product
+23:40:21.062 [main] INFO  testCases.TC_006_ShoppingCartTest - Update the cart value
+23:40:21.143 [main] INFO  testCases.TC_006_ShoppingCartTest - clik on Add to cart button
+23:40:22.188 [main] INFO  testCases.TC_006_ShoppingCartTest - Confirmation message is compare to expected message
+23:40:24.775 [main] INFO  testCases.TC_006_ShoppingCartTest - clik on cart button
+23:40:27.731 [main] INFO  testCases.TC_006_ShoppingCartTest - actual product amount is compare to expected product amount
+23:40:29.351 [main] INFO  testCases.TC_006_ShoppingCartTest - actual title is compare to expected title
+23:40:29.351 [main] INFO  testCases.TC_006_ShoppingCartTest - *** verifyCheckoutPage Test Case finish ***
+23:40:33.052 [main] INFO  testCases.TC_007_CheckoutTest - *** verifyCheckoutPage Test Case Start ***
+23:40:33.912 [main] INFO  testCases.TC_007_CheckoutTest - enter email id
+23:40:34.025 [main] INFO  testCases.TC_007_CheckoutTest - enter password
+23:40:34.483 [main] INFO  testCases.TC_007_CheckoutTest - click on login button
+23:40:35.251 [main] INFO  testCases.TC_007_CheckoutTest - Search the product
+23:40:35.833 [main] INFO  testCases.TC_007_CheckoutTest - clik on search button
+23:40:36.985 [main] INFO  testCases.TC_007_CheckoutTest - clik on searched product
+23:40:38.131 [main] INFO  testCases.TC_007_CheckoutTest - Update the cart value
+23:40:38.203 [main] INFO  testCases.TC_007_CheckoutTest - clik on Add to cart button
+23:40:39.242 [main] INFO  testCases.TC_007_CheckoutTest - Confirmation message is compare to expected message
+23:40:41.805 [main] INFO  testCases.TC_007_CheckoutTest - clik on cart button
+23:40:44.917 [main] INFO  testCases.TC_007_CheckoutTest - clik on Estimate Shipping & Taxes
+23:40:45.473 [main] INFO  testCases.TC_007_CheckoutTest - actual product amount is compare to expected product amount
+23:40:46.984 [main] INFO  testCases.TC_007_CheckoutTest - actual title is compare to expected title
+23:40:55.109 [main] INFO  testCases.TC_007_CheckoutTest - clik on Continue button checkout pages
+23:40:56.653 [main] INFO  testCases.TC_007_CheckoutTest - actual confirm message is compare to expected confirm message
+23:40:59.627 [main] INFO  testCases.TC_007_CheckoutTest - clik on Continue button for home page
+23:40:59.627 [main] INFO  testCases.TC_007_CheckoutTest - *** verifyCheckoutPage Test Case finish ***
+23:41:03.492 [main] INFO  testCases.TC_008_EndToEndTest - *** End To End Test Case start ***
+23:41:03.599 [main] INFO  testCases.TC_008_EndToEndTest - click on my account button
+23:41:05.539 [main] INFO  testCases.TC_008_EndToEndTest - click on register button
+23:41:07.053 [main] INFO  testCases.TC_008_EndToEndTest - Give the personal details
+23:41:10.366 [main] INFO  testCases.TC_008_EndToEndTest - click on continue button
+23:41:10.418 [main] INFO  testCases.TC_008_EndToEndTest - Successfull registration is verified
+23:41:12.331 [main] INFO  testCases.TC_008_EndToEndTest - click on logout button
+23:41:12.735 [main] INFO  testCases.TC_008_EndToEndTest - click on login button
+23:41:12.937 [main] INFO  testCases.TC_008_EndToEndTest - email add & password is enter
+23:41:13.499 [main] INFO  testCases.TC_008_EndToEndTest - click on login button
+23:41:15.419 [main] INFO  testCases.TC_008_EndToEndTest - click on home button
+23:41:15.502 [main] INFO  testCases.TC_008_EndToEndTest - serch the product
+23:41:16.287 [main] INFO  testCases.TC_008_EndToEndTest - click on search button
+23:41:18.787 [main] INFO  testCases.TC_008_EndToEndTest - click on the searched product
+23:41:18.937 [main] INFO  testCases.TC_008_EndToEndTest - update the cart value
+23:41:19.017 [main] INFO  testCases.TC_008_EndToEndTest - click on add to cart button
+23:41:20.568 [main] INFO  testCases.TC_008_EndToEndTest - cnf meassage is verify
+23:41:22.420 [main] INFO  testCases.TC_008_EndToEndTest - click on view cart button
+23:41:25.843 [main] INFO  testCases.TC_008_EndToEndTest - verify the amount in shopping cart page
+23:41:27.907 [main] INFO  testCases.TC_008_EndToEndTest - verify the title of the checkout page
+23:41:36.825 [main] INFO  testCases.TC_008_EndToEndTest - Enter new address
+23:41:37.862 [main] INFO  testCases.TC_008_EndToEndTest - actual confirm message is compare to expected confirm message
+23:41:41.281 [main] INFO  testCases.TC_008_EndToEndTest - clik on Continue button for home page
+23:41:41.281 [main] INFO  testCases.TC_008_EndToEndTest - *** End To End Test Case finished ***

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Opencart_Project_CucumberFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="0.209">
+    <testsuite name="EndToEnd" time="0.209">
+      <testcase name="Successfully order the product" classname="EndToEnd" time="0.209">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user enter the details of address &amp; continue to place the order' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user enter the details of address &amp; continue to place the order")
+public void user_enter_the_details_of_address_continue_to_place_the_order() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify order is Successfully placed")
+public void verify_order_is_successfully_placed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

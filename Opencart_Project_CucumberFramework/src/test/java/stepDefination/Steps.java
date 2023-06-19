@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.ResourceBundle;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
@@ -20,10 +21,15 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObjects.CheckoutPage;
+import pageObjects.EndToEndTest;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
+import pageObjects.ProductPage;
 import pageObjects.RegistrationpPage;
+import pageObjects.SearchPage;
+import pageObjects.ShoppingCart;
 import utilities.DataReader;
 
 public class Steps {
@@ -33,12 +39,21 @@ public class Steps {
     RegistrationpPage rp;
     MyAccountPage macc;
     LoginPage lp;
-
+    SearchPage sp;
+    ProductPage pp;
+    ShoppingCart sc;
+    EndToEndTest et;
+    CheckoutPage cp;
+    
     List<HashMap<String,String>> dataMap;
     
     public Logger log; //for logging
     public ResourceBundle rb; // for reading properties file
     public String br; //to store browser name
+    public String randomName;
+    public String randomNumber;
+    public String randomPassword;
+    public String randomEmail;
     
 	@Before
 	public void setUp()
@@ -48,6 +63,12 @@ public class Steps {
         //Reading config.properties (for browser)
         rb=ResourceBundle.getBundle("config");
         br=rb.getString("browser");
+        randomName =RandomStringUtils.randomAlphabetic(5);
+        randomEmail=randomName+"@gmail.com";
+        randomNumber=RandomStringUtils.randomNumeric(10);
+        String randomp1= RandomStringUtils.randomAlphabetic(3);
+        String randomp2 = RandomStringUtils.randomNumeric(2);
+        randomPassword=randomp1+"@"+randomp2;
 	}
 
 	@After
@@ -292,4 +313,175 @@ public class Steps {
 	}
 	
  }
+	 
+	           // *** EndToEnd Test the application
+	
+	@When("user enter firstname")
+	public void user_enter_firstname() throws InterruptedException 
+	{
+		Thread.sleep(500);
+		rp = new RegistrationpPage(driver);
+		rp.firstName(randomName);
+	}
+
+	@When("user enter lastname")
+	public void user_enter_lastname() 
+	{
+		rp.lastName(randomName);
+	}
+
+	@When("user enter email")
+	public void user_enter_email() 
+	{
+		rp.emailId(randomEmail);
+	}
+
+	@When("user enter telephone")
+	public void user_enter_telephone() 
+	{
+		rp.telePhone(randomNumber);
+	}
+
+	@When("user enter password")
+	public void user_enter_password() 
+	{
+		rp.password(randomPassword);
+	}
+
+	@When("user enter confirm password")
+	public void user_enter_confirm_password() 
+	{
+		rp.cnfPassword(randomPassword);
+	}
+
+	@Then("logout from application")
+	public void logout_from_application() 
+	{
+	   rp.logoutbtn();
+	}
+	
+	@When("User enters Email and Password")
+	public void user_enters_email_and_password() throws InterruptedException 
+	{
+		Thread.sleep(500);
+		lp = new LoginPage(driver);
+        lp.emailadd(randomEmail);
+		lp.password(randomPassword);
+	}
+	
+	@Then("click the Login button")
+	public void click_the_login_button() throws InterruptedException 
+	{
+	   lp.loginBtn();
+	   Thread.sleep(500);
+	   lp.homeBtn();
+	}
+
+	@When("type the prduct name as {string}")
+	public void type_the_prduct_name_as(String prdctName) throws InterruptedException 
+	{
+	   Thread.sleep(500);
+	   hp.searchProduct(prdctName);
+	}
+	@When("click on search  button")
+	public void click_on_search_button() 
+	{
+	    hp.clickSearchBtn();
+	}
+
+	@Then("verify the searched product and click the searched product")
+	public void verify_the_searched_product_and_click_the_searched_product() throws InterruptedException 
+	{
+		Thread.sleep(500);
+		SearchPage sp = new SearchPage(driver);
+		sp.clickProduct("iMac");
+	}
+
+	@When("select the cart value")
+	public void select_the_cart_value() 
+	{
+		pp = new ProductPage(driver);
+		pp.selectCartValue("2");
+		log.info("update the cart value");
+	}
+	@When("click on add to cart")
+	public void click_on_add_to_cart() 
+	{
+		pp.clickToCart();
+		log.info("click on add to cart button");
+	}
+	@Then("verify the confirmation message after add the product to cart")
+	public void verify_the_confirmation_message_after_add_the_product_to_cart() throws InterruptedException 
+	{
+		Thread.sleep(1500);
+    	boolean msg=pp.cnfMsg();
+    	Assert.assertEquals(msg, true);
+    	log.info("cnf meassage is verify");
+	}
+	@Then("click on view to verify product added to cart")
+	public void click_on_view_to_verify_product_added_to_cart() throws InterruptedException 
+	{
+		pp.viewCart();
+    	log.info("click on view cart button");
+	}
+
+	@When("click on estimate tax and fill the details")
+	public void click_on_estimate_tax_and_fill_the_details() throws InterruptedException 
+	{
+		sc = new ShoppingCart(driver);
+		Thread.sleep(1500);
+		sc.cliclEST();
+	}
+	@Then("verify the price of the product after fill the details")
+	public void verify_the_price_of_the_product_after_fill_the_details() throws InterruptedException 
+	{
+		 String act_amount = sc.getAmount();
+    	 String exp_amount = "$205.00";
+    	 Assert.assertEquals(act_amount, exp_amount);
+    	 log.info("verify the amount in shopping cart page");
+	}
+	@Then("click on checkout button")
+	public void click_on_checkout_button() 
+	{
+		 sc.clickCheckout();
+	}
+
+	@When("user enter the details of address & continue to place the order")
+	public void user_enter_the_details_of_address_continue_to_place_the_order() throws InterruptedException 
+	{
+		et = new EndToEndTest(driver);
+		Thread.sleep(1000);
+		et.billiAddress("qwert", "asdfg", "zxcvbn", "sety", "123546", "India", "Orissa");
+   	    log.info("Enter new address");
+	}
+	
+	@Then("verify order is Successfully placed")
+	public void verify_order_is_successfully_placed() throws InterruptedException 
+	{
+		cp = new CheckoutPage(driver);
+		Thread.sleep(1000);
+   	    String act_cnfmsg=cp.verifyConfirmOrder();
+   	    String exp_cnfmsg="Your order has been placed!";
+   	    Assert.assertEquals(act_cnfmsg, exp_cnfmsg);
+   	    log.info("actual confirm message is compare to expected confirm message");
+	}
+	
+	@Then("click on continue to homepage")
+	public void click_on_continue_to_homepage() throws InterruptedException 
+	{
+		Thread.sleep(3000);
+   	    cp.clickToHomePage();
+   	    log.info("clik on Continue button for home page");
+	}
+
+
+
+
+
+
+	
+	
+	
+	
+	
 }

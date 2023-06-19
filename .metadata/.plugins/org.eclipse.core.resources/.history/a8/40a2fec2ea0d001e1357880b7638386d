@@ -1,0 +1,10 @@
+Feature: Login
+
+Scenario: Login With Valid Details
+    Given user open the browser
+    And open the url "http://localhost:8081/opencart/upload/"
+    When user navigate to Homepage
+    And click on Login
+    And User enters Email as "test1_user@gmail.com" and Password as "Test@123"
+    And Click on Login button
+    Then validate the My Account page

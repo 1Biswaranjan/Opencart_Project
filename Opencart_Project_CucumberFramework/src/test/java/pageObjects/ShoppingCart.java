@@ -16,12 +16,15 @@ public class ShoppingCart extends BaseObjectClass {
 	{
 		driver.findElement(By.xpath("(//a[@class='accordion-toggle'])[2]")).click();
 		
+		Thread.sleep(500);
 		Select se1 = new Select(driver.findElement(By.name("country_id")));
 		se1.selectByVisibleText("India");
 		
+		Thread.sleep(500);
 		Select se2 = new Select(driver.findElement(By.name("zone_id")));
 		se2.selectByVisibleText("Orissa");
 		
+		Thread.sleep(500);
 		driver.findElement(By.name("postcode")).sendKeys("155040");
 		driver.findElement(By.id("button-quote")).click();
 		Thread.sleep(500);

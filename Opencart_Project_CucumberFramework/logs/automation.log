@@ -131,3 +131,178 @@
 20:50:34.663 [main] INFO  stepDefination.Steps - Enter password
 20:50:35.086 [main] INFO  stepDefination.Steps - click on login button
 20:50:36.107 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+23:30:20.144 [main] INFO  stepDefination.Steps - click on my account
+23:30:20.657 [main] INFO  stepDefination.Steps - click on login button from dropdown
+23:30:21.324 [main] INFO  stepDefination.Steps - Enter email id
+23:30:21.434 [main] INFO  stepDefination.Steps - Enter password
+23:30:21.760 [main] INFO  stepDefination.Steps - click on login button
+23:30:22.783 [main] INFO  stepDefination.Steps - Expected message is not equal to actual message
+23:30:26.477 [main] INFO  stepDefination.Steps - click on my account
+23:30:26.990 [main] INFO  stepDefination.Steps - click on login button from dropdown
+23:30:27.637 [main] INFO  stepDefination.Steps - Enter email id
+23:30:27.761 [main] INFO  stepDefination.Steps - Enter password
+23:30:28.193 [main] INFO  stepDefination.Steps - click on login button
+23:30:29.214 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+00:22:45.367 [main] INFO  stepDefination.Steps - click on my account
+00:22:45.933 [main] INFO  stepDefination.Steps - click on login button from dropdown
+00:22:46.585 [main] INFO  stepDefination.Steps - Enter email id
+00:22:46.699 [main] INFO  stepDefination.Steps - Enter password
+00:22:47.069 [main] INFO  stepDefination.Steps - click on login button
+00:22:48.081 [main] INFO  stepDefination.Steps - Expected message is not equal to actual message
+00:22:51.888 [main] INFO  stepDefination.Steps - click on my account
+00:22:52.480 [main] INFO  stepDefination.Steps - click on login button from dropdown
+00:22:53.132 [main] INFO  stepDefination.Steps - Enter email id
+00:22:53.252 [main] INFO  stepDefination.Steps - Enter password
+00:22:53.685 [main] INFO  stepDefination.Steps - click on login button
+00:22:54.701 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+20:48:43.667 [main] INFO  stepDefination.Steps - click on my account
+20:48:44.326 [main] INFO  stepDefination.Steps - click on login button from dropdown
+20:48:45.009 [main] INFO  stepDefination.Steps - Enter email id
+20:48:45.129 [main] INFO  stepDefination.Steps - Enter password
+20:48:45.858 [main] INFO  stepDefination.Steps - click on login button
+20:48:46.887 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:17:49.439 [main] INFO  stepDefination.Steps - click on my account
+21:17:50.245 [main] INFO  stepDefination.Steps - click on registerLink
+21:27:11.924 [main] INFO  stepDefination.Steps - click on my account
+21:27:12.517 [main] INFO  stepDefination.Steps - click on registerLink
+21:27:13.738 [main] INFO  stepDefination.Steps - click on newsletters Yes
+21:27:13.842 [main] INFO  stepDefination.Steps - click on agree
+21:27:16.572 [main] INFO  stepDefination.Steps - click on continue
+21:27:17.619 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:27:17.947 [main] INFO  stepDefination.Steps - click on continue
+21:27:18.980 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:47:12.552 [main] INFO  stepDefination.Steps - click on my account
+21:47:13.620 [main] INFO  stepDefination.Steps - click on registerLink
+21:47:14.987 [main] INFO  stepDefination.Steps - click on newsletters Yes
+21:47:15.077 [main] INFO  stepDefination.Steps - click on agree
+21:47:17.811 [main] INFO  stepDefination.Steps - click on continue
+21:47:18.870 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:47:19.294 [main] INFO  stepDefination.Steps - click on continue
+21:47:20.309 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:47:20.889 [main] INFO  stepDefination.Steps - click on my account
+21:47:21.322 [main] INFO  stepDefination.Steps - click on login button from dropdown
+21:48:55.195 [main] INFO  stepDefination.Steps - click on my account
+21:48:55.793 [main] INFO  stepDefination.Steps - click on registerLink
+21:48:57.279 [main] INFO  stepDefination.Steps - click on newsletters Yes
+21:48:57.384 [main] INFO  stepDefination.Steps - click on agree
+21:48:59.950 [main] INFO  stepDefination.Steps - click on continue
+21:49:01.014 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:49:01.415 [main] INFO  stepDefination.Steps - click on continue
+21:49:02.437 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:49:02.950 [main] INFO  stepDefination.Steps - click on my account
+21:49:03.385 [main] INFO  stepDefination.Steps - click on login button from dropdown
+21:52:23.910 [main] INFO  stepDefination.Steps - click on my account
+21:52:24.521 [main] INFO  stepDefination.Steps - click on registerLink
+21:52:26.113 [main] INFO  stepDefination.Steps - click on newsletters Yes
+21:52:26.224 [main] INFO  stepDefination.Steps - click on agree
+21:52:28.845 [main] INFO  stepDefination.Steps - click on continue
+21:52:29.915 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:52:30.376 [main] INFO  stepDefination.Steps - click on continue
+21:52:31.395 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:52:31.969 [main] INFO  stepDefination.Steps - click on my account
+21:52:32.430 [main] INFO  stepDefination.Steps - click on login button from dropdown
+21:53:20.566 [main] INFO  stepDefination.Steps - click on my account
+21:53:21.227 [main] INFO  stepDefination.Steps - click on registerLink
+21:53:22.786 [main] INFO  stepDefination.Steps - click on newsletters Yes
+21:53:22.882 [main] INFO  stepDefination.Steps - click on agree
+21:53:25.472 [main] INFO  stepDefination.Steps - click on continue
+21:53:26.535 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:53:26.982 [main] INFO  stepDefination.Steps - click on continue
+21:53:28.011 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+21:53:28.587 [main] INFO  stepDefination.Steps - click on my account
+21:53:28.996 [main] INFO  stepDefination.Steps - click on login button from dropdown
+22:05:39.089 [main] INFO  stepDefination.Steps - click on my account
+22:05:39.501 [main] INFO  stepDefination.Steps - click on registerLink
+22:05:40.727 [main] INFO  stepDefination.Steps - click on newsletters Yes
+22:05:40.784 [main] INFO  stepDefination.Steps - click on agree
+22:05:43.185 [main] INFO  stepDefination.Steps - click on continue
+22:05:44.231 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+22:05:44.523 [main] INFO  stepDefination.Steps - click on continue
+22:05:45.540 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+22:05:45.951 [main] INFO  stepDefination.Steps - click on my account
+22:05:46.264 [main] INFO  stepDefination.Steps - click on login button from dropdown
+22:21:33.448 [main] INFO  stepDefination.Steps - click on my account
+22:21:33.911 [main] INFO  stepDefination.Steps - click on registerLink
+22:21:35.151 [main] INFO  stepDefination.Steps - click on newsletters Yes
+22:21:35.214 [main] INFO  stepDefination.Steps - click on agree
+22:21:37.801 [main] INFO  stepDefination.Steps - click on continue
+22:21:38.850 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+22:21:39.157 [main] INFO  stepDefination.Steps - click on continue
+22:21:40.176 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+22:21:40.584 [main] INFO  stepDefination.Steps - click on my account
+22:21:40.898 [main] INFO  stepDefination.Steps - click on login button from dropdown
+08:38:54.362 [main] INFO  stepDefination.Steps - click on my account
+08:38:55.286 [main] INFO  stepDefination.Steps - click on registerLink
+08:38:56.508 [main] INFO  stepDefination.Steps - click on newsletters Yes
+08:38:56.576 [main] INFO  stepDefination.Steps - click on agree
+08:38:59.325 [main] INFO  stepDefination.Steps - click on continue
+08:39:00.382 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+08:39:00.762 [main] INFO  stepDefination.Steps - click on continue
+08:39:01.798 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+08:39:02.263 [main] INFO  stepDefination.Steps - click on my account
+08:39:02.647 [main] INFO  stepDefination.Steps - click on login button from dropdown
+08:39:08.096 [main] INFO  stepDefination.Steps - update the cart value
+08:39:08.184 [main] INFO  stepDefination.Steps - click on add to cart button
+08:39:09.723 [main] INFO  stepDefination.Steps - cnf meassage is verify
+08:39:11.496 [main] INFO  stepDefination.Steps - click on view cart button
+09:39:03.728 [main] INFO  stepDefination.Steps - click on my account
+09:39:04.171 [main] INFO  stepDefination.Steps - click on registerLink
+09:39:05.408 [main] INFO  stepDefination.Steps - click on newsletters Yes
+09:39:05.476 [main] INFO  stepDefination.Steps - click on agree
+09:39:07.910 [main] INFO  stepDefination.Steps - click on continue
+09:39:08.960 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+09:39:09.261 [main] INFO  stepDefination.Steps - click on continue
+09:39:10.275 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+09:39:10.678 [main] INFO  stepDefination.Steps - click on my account
+09:39:10.949 [main] INFO  stepDefination.Steps - click on login button from dropdown
+09:39:15.763 [main] INFO  stepDefination.Steps - update the cart value
+09:39:15.829 [main] INFO  stepDefination.Steps - click on add to cart button
+09:39:17.378 [main] INFO  stepDefination.Steps - cnf meassage is verify
+09:39:18.891 [main] INFO  stepDefination.Steps - click on view cart button
+09:45:25.568 [main] INFO  stepDefination.Steps - click on my account
+09:45:25.988 [main] INFO  stepDefination.Steps - click on registerLink
+09:45:27.233 [main] INFO  stepDefination.Steps - click on newsletters Yes
+09:45:27.295 [main] INFO  stepDefination.Steps - click on agree
+09:45:29.729 [main] INFO  stepDefination.Steps - click on continue
+09:45:30.783 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+09:45:31.111 [main] INFO  stepDefination.Steps - click on continue
+09:45:32.130 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+09:45:32.533 [main] INFO  stepDefination.Steps - click on my account
+09:45:32.848 [main] INFO  stepDefination.Steps - click on login button from dropdown
+09:45:37.697 [main] INFO  stepDefination.Steps - update the cart value
+09:45:37.768 [main] INFO  stepDefination.Steps - click on add to cart button
+09:45:39.318 [main] INFO  stepDefination.Steps - cnf meassage is verify
+09:45:40.770 [main] INFO  stepDefination.Steps - click on view cart button
+09:45:43.533 [main] INFO  stepDefination.Steps - verify the amount in shopping cart page
+09:46:35.658 [main] INFO  stepDefination.Steps - click on my account
+09:46:36.068 [main] INFO  stepDefination.Steps - click on registerLink
+09:46:37.350 [main] INFO  stepDefination.Steps - click on newsletters Yes
+09:46:37.412 [main] INFO  stepDefination.Steps - click on agree
+09:46:39.831 [main] INFO  stepDefination.Steps - click on continue
+09:46:40.890 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+09:46:41.184 [main] INFO  stepDefination.Steps - click on continue
+09:46:42.211 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+09:46:42.602 [main] INFO  stepDefination.Steps - click on my account
+09:46:42.930 [main] INFO  stepDefination.Steps - click on login button from dropdown
+09:46:47.766 [main] INFO  stepDefination.Steps - update the cart value
+09:46:47.837 [main] INFO  stepDefination.Steps - click on add to cart button
+09:46:49.403 [main] INFO  stepDefination.Steps - cnf meassage is verify
+09:46:50.936 [main] INFO  stepDefination.Steps - click on view cart button
+09:50:41.203 [main] INFO  stepDefination.Steps - click on my account
+09:50:41.680 [main] INFO  stepDefination.Steps - click on registerLink
+09:50:42.959 [main] INFO  stepDefination.Steps - click on newsletters Yes
+09:50:43.032 [main] INFO  stepDefination.Steps - click on agree
+09:50:45.524 [main] INFO  stepDefination.Steps - click on continue
+09:50:46.576 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+09:50:46.877 [main] INFO  stepDefination.Steps - click on continue
+09:50:47.897 [main] INFO  stepDefination.Steps - Expected message is equal to actual message
+09:50:48.342 [main] INFO  stepDefination.Steps - click on my account
+09:50:48.662 [main] INFO  stepDefination.Steps - click on login button from dropdown
+09:50:53.730 [main] INFO  stepDefination.Steps - update the cart value
+09:50:53.799 [main] INFO  stepDefination.Steps - click on add to cart button
+09:50:55.340 [main] INFO  stepDefination.Steps - cnf meassage is verify
+09:50:56.822 [main] INFO  stepDefination.Steps - click on view cart button
+09:51:01.485 [main] INFO  stepDefination.Steps - verify the amount in shopping cart page
+09:51:11.633 [main] INFO  stepDefination.Steps - Enter new address
+09:51:12.669 [main] INFO  stepDefination.Steps - actual confirm message is compare to expected confirm message
+09:51:16.110 [main] INFO  stepDefination.Steps - clik on Continue button for home page

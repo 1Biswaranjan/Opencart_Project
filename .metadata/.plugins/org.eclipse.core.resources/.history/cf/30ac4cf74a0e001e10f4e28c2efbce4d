@@ -1,0 +1,30 @@
+Feature: EndToEnd
+
+  Scenario: Successfully order the product
+    Given user open the browser
+    And open the url "http://localhost:8081/opencart/upload/"
+    When user navigate to Homepage
+    And click on register
+    And user enter firstname
+    And user enter lastname
+    And user enter email
+    And user enter telephone
+    And user enter password
+    And user enter confirm password
+    And user click the subscribe buttn yes
+    And user click the privacy policy
+    And user click the continue button
+    Then validate the success message
+    And click on continue
+    And validate the My Account page
+    And logout from application
+    #login with newly created account
+    When user navigate to Homepage
+    And click on Login
+    And User enters Email and Password
+    Then click the Login button
+    # search product & select the product
+    When type the prduct name as "mac"
+    And click on search  button
+    And verify the searched product and click the searched product
+    #Select the product quantity and add the product to cart

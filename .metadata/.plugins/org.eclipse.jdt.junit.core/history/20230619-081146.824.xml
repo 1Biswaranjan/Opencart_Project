@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Opencart_Project_CucumberFramework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="0.195">
+    <testsuite name="EndToEnd" time="0.195">
+      <testcase name="Successfully order the product" classname="EndToEnd" time="0.195">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'verify the searched product and click the searched product' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("verify the searched product and click the searched product")
+public void verify_the_searched_product_and_click_the_searched_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

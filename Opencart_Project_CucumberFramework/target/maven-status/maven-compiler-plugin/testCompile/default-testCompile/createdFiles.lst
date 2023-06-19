@@ -1,1 +1,14 @@
 utilities\DataReader$1.class
+pageObjects\HomePage.class
+pageObjects\ShoppingCart.class
+pageObjects\CheckoutPage.class
+pageObjects\MyAccountPage.class
+pageObjects\ProductPage.class
+stepDefination\Steps.class
+pageObjects\LoginPage.class
+testRunner\TestRunner.class
+pageObjects\RegistrationpPage.class
+pageObjects\SearchPage.class
+pageObjects\BaseObjectClass.class
+pageObjects\EndToEndTest.class
+utilities\DataReader.class
